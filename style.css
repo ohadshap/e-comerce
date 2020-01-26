@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    row-gap: 3px;
+}
+
+#head {
+    height: 10vh;
+    width: 100vw;
+    background-color: #176087;
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+    justify-items: center;
+    padding: 5px;
+}
+
+#main {
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    column-gap: 3px;
+}
+
+#nav-bar {
+    height: 90vh;
+    width: 20vw;
+    background-color: #176087;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 3fr;
+    padding: 5px;
+}
+
+#content {
+    height: 90vh;
+    width: 50vw;
+    background-color:#2C3E50;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    padding: 5px;
+}
+
+#rates {
+    height: 90vh;
+    width: 30vw;
+    background-color: #087CA7;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    padding: 5px;
+}
+
+.nav-set {
+    display: grid;
+}
+
+h2 {
+    background-color: #4d8fb3;
+    height: fit-content;
+    border-radius: 5px;
+    justify-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product-box {
+    height: 60px;
+    width: 250px;
+    background-color: rgb(72, 104, 135);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.product {
+    width: fit-content;
+    display: grid;
+    justify-self: left;
+}
+
+.product-info {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    row-gap: 3px;
+}
+
+.ask-price {
+    width: fit-content;
+    display: grid;
+    /* margin: 15px; */
+    padding: 15px;
+    justify-self: right;
+}
+
+.add-product {
+    width: fit-content;
+    background-color: #C1DBE3;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.delete-product {
+    width: fit-content;
+    background-color: #C1DBE3;
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
